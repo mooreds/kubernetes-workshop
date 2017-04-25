@@ -131,7 +131,7 @@ So let's create an ingress (beware of):
     echo "apiVersion: extensions/v1beta1
     kind: Ingress
     metadata:
-      name: k8sapp
+      name: k8sappelb
     spec:
       rules:
         #CAN use underscores but NO dashes
